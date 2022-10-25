@@ -1,0 +1,70 @@
+.masonry{
+    display: flex;
+    flex-wrap: wrap;
+}
+.masonry_in:nth-child(1) {
+    padding-top: 50px;
+    
+}
+
+.masonry_in:nth-child(3) {
+    padding-top: 50px;
+    
+}
+
+
+@media (max-width: 1200px){
+    .masonry_in:nth-child(1){
+        padding-top: 0px;
+    }
+    .masonry_in:nth-child(3){
+        padding-top: 0px;
+    }
+}
+
+
+/* Metis Menu CSS Start */
+.industify_fn_mobilemenu_wrap .metismenu{
+	margin: 0 0px 10px 0px;
+	list-style-type: none;
+	/* margin-left: 20px; */
+	/* display: none; */
+	position: relative;
+	overflow: hidden;
+}
+.industify_fn_mobilemenu_wrap .metismenu a{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	display: block;
+	position: relative;
+	font-family: 'Rubik';
+    
+}
+.industify_fn_mobilemenu_wrap .metismenu a:hover{
+	color: #fff;
+}
+.industify_fn_mobilemenu_wrap .metismenu a:focus{
+	outline:none;
+}
+.industify_fn_mobilemenu_wrap .metismenu ul a{
+	text-transform: none;
+    margin-left: 10px;;
+}
+.industify_fn_mobilemenu_wrap .metismenu li{
+	margin: 0px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.metismenu .has-arrow::after{
+    transform: rotate(225deg) translate(0, -50%) !important;
+    -webkit-transform: rotate(225deg) translate(0, -50%) !important;
+}
+.metismenu .mm-active > .has-arrow::after, .metismenu .has-arrow[aria-expanded=true]::after{
+   transform: rotate(315deg) translate(0, -50%) !important;
+   -webkit-transform: rotate(315deg) translate(0, -50%) !important;
+}
+

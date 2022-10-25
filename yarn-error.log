@@ -1,0 +1,61 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://packages.principal.com/artifactory/api/npm/pfg-npm-dev-virt/metismenujs: Request "https://packages.principal.com/artifactory/api/npm/pfg-npm-dev-virt/metismenujs" returned a 403
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67038:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "industify",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "metismenujs": "^1.3.1",
+      "next": "^12.0.7",
+      "react": "17.0.2",
+      "react-countup": "^6.1.0",
+      "react-dom": "17.0.2",
+      "react-images": "^1.2.0-beta.7",
+      "react-parallax": "^3.3.0",
+      "react-photo-gallery": "^8.0.0",
+      "react-visibility-sensor": "^5.1.1",
+      "swiper": "^7.3.3"
+    },
+    "devDependencies": {
+      "eslint": "7.32.0",
+      "eslint-config-next": "12.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
